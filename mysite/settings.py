@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    "polls.apps.PollsConfig",
+    "django_polls.apps.PollsConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -57,6 +57,7 @@ ROOT_URLCONF = "mysite.urls"
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
+
 
 TEMPLATES = [
     {
